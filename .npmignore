@@ -1,0 +1,5 @@
+src
+*.config.js
+*.md
+tests
+node_modules
