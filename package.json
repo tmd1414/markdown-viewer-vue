@@ -1,5 +1,5 @@
 {
-  "name": "markdown-viewer-vue",
+  "name": "markdown-viewer-vue2",
   "version": "1.0.0",
   "description": "A lightweight Vue 2.0 component for displaying markdown content",
   "main": "dist/markdown-viewer.umd.js",
@@ -8,8 +8,8 @@
     "dist"
   ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vite serve",
+    "build": "vite build",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
@@ -29,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/markdown-viewer-vue.git"
+    "url": "git+https://github.com/tmd1414/markdown-viewer-vue"
   },
   "author": "Your Name",
   "license": "MIT"
